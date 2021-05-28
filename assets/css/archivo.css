@@ -272,6 +272,7 @@ h1 {
   text-align: center; }
 
 .somos p {
+  text-shadow: 1px 2px #999;
   margin-right: 10px;
   margin-left: 10px; }
 
