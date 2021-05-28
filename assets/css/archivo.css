@@ -75,7 +75,7 @@ body {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em; }
+  padding: 3em; }
 
 @media (min-width: 600px) {
   .formulario {
@@ -113,7 +113,9 @@ ul {
 
 .formulario__info {
   background: #807b7b;
-  color: white; }
+  line-height: 45px;
+  color: white;
+  text-align: center; }
 
 .form {
   background: #fff; }
