@@ -8,11 +8,15 @@
   }
 
   body{
-  background-color:white;
+  background-color: white;
   }
 
-  
+ /* ---------- mi paleta de colores----------------------------*/ 
 $violetita: #dbc1c1;
+$grisesito:#bdbdbd;
+$marron_claro:#dcc49a;
+$marron_oscuro:#b9a37c;
+$negrito:#383c41;
 /* ---------- barra de navegacion de boostrap estilos y colores----------------------------*/ 
 
 
@@ -22,7 +26,10 @@ $violetita: #dbc1c1;
 }
 
 .nav-item a:hover {
-  color: cyan;
+  color: $marron_oscuro;
+}
+
+.nav-item{padding: 10px;
 }
 
   
@@ -104,11 +111,11 @@ $violetita: #dbc1c1;
   
   
   .formulario {
-    max-width: 1170px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;}
-  
+    padding: 1em;
+  }
 
   @media (min-width: 600px) {
     .formulario {
@@ -126,7 +133,7 @@ $violetita: #dbc1c1;
   }
   
   input:focus,textarea:focus {
-    outline: 3px solid cyan;
+    outline: 3px solid $marron_claro;
   }
   
   input,textarea,button {
@@ -159,11 +166,9 @@ $violetita: #dbc1c1;
   }
   
   .formulario__info {
-    background: rgb(128, 123, 123);
-   line-height: 45px;
+    background: $negrito;
     color:white; 
-    text-align: center;
-
+  
   }
   .form {
     background: #fff;
@@ -190,12 +195,12 @@ $violetita: #dbc1c1;
   }
   
   button {
-    background: cyan;
+    background:$marron_oscuro;
     width: 100%;
     border: 0;
   }
   button:hover, button:focus {
-    background:$violetita;
+    background:$marron_claro;
     outline: 0;
   }
   
@@ -203,12 +208,13 @@ $violetita: #dbc1c1;
 .card-group
 {margin-top: 5px;
 }
-.page-footer {background-color: $violetita;
+.page-footer {background-color: $marron_oscuro;
 color:black;
 position: center;
 }
 
-h1{text-align: center;}
+h1{text-align: center;
+padding: 20px;}
 
 
 .tarjetita-nutricion__titulo{
@@ -218,12 +224,9 @@ h1{text-align: center;}
 
 .nutricion__new{margin-left: 20px;}
 
-.nutricion__new:hover{transform: scale(1,2);
-color: red;}
-
 
 .tarjetita {
-	background-color: #cccccc;
+	background-color:$grisesito;
 	border-radius: 15px;
 	padding: 20px;
 	display: flex;
@@ -232,10 +235,12 @@ color: red;}
 	margin-bottom: 50px; 
   margin-left: 20px;
   margin-right: 20px;
+  font-family:'Poppins', sans-serif;;
 }
 
 .tarjetita-nutricion__titulo {
 	font-size:1.5rem;
+  font-family:'Poppins', sans-serif; 
 	margin-bottom: 20px;
 }
 .tarjetita-yoga__titulo{
@@ -245,9 +250,8 @@ color: red;}
 .tarjetita-nutricion__parrafo {
 	line-height: 28px;
 	font-size:1rem;
+  font-family:'Poppins', sans-serif; 
 }
-
-
 
 
 .tarjetita-nutricion__botoncito{
@@ -258,19 +262,21 @@ color: red;}
 	display: inline-block;
 	text-decoration: none;
   border-radius: 10px;
+  font-family:'Poppins', sans-serif; 
 }
 
 .tarjetita-yoga__botoncito{
   @extend.tarjetita-nutricion__botoncito;
-	background-color: cyan;
+	background-color:$marron_claro;
   color: #000;
+  font-family:'Poppins', sans-serif; 
 }
 
 
 .yogui__descripcion{
   margin-left: 20px;
-
 margin-bottom: 25px;
+font-family:'Poppins', sans-serif; 
 }
 
 .grid-somos {
