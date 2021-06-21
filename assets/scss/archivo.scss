@@ -145,7 +145,7 @@ $tipografia-general: 'Poppins', sans-serif;
   
   button, input,textarea {
     padding: 1em;
-  }
+ }
   
   button {
     background:$marron_oscuro;
@@ -162,12 +162,20 @@ $tipografia-general: 'Poppins', sans-serif;
 {margin-top: 5px;
 }
 
-.col-md-12 {background-color: $grisesito;
+.col-md-12 {background-color: black;
+  text-decoration: none;
+
 }
 
 .links{
-background-color:$grisesito;
-font-size: 15px;}
+background-color:black;
+font-size: 15px;
+color: $marron_claro;
+text-decoration: none;
+
+}
+
+
 
 .col-md-6 {margin-bottom: -2x;
 }
@@ -198,6 +206,7 @@ padding: 20px;}
   border-radius: 10px;
   font-family:'Poppins', sans-serif; ;
 	background-color:$marron_claro;
+  font-style: bold;
 }
 
 
@@ -205,10 +214,6 @@ padding: 20px;}
 margin-left: 20px;
 margin-bottom: 25px;
 font-family:'Poppins', sans-serif; 
-}
-
-
-.redes{color: white;
 }
 
 

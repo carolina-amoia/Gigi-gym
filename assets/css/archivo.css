@@ -122,11 +122,14 @@ button:hover, button:focus {
   margin-top: 5px; }
 
 .col-md-12 {
-  background-color: #bdbdbd; }
+  background-color: black;
+  text-decoration: none; }
 
 .links {
-  background-color: #bdbdbd;
-  font-size: 15px; }
+  background-color: black;
+  font-size: 15px;
+  color: #dcc49a;
+  text-decoration: none; }
 
 .col-md-6 {
   margin-bottom: -2x; }
@@ -155,15 +158,13 @@ h1 {
   text-decoration: none;
   border-radius: 10px;
   font-family: 'Poppins', sans-serif;
-  background-color: #dcc49a; }
+  background-color: #dcc49a;
+  font-style: bold; }
 
 .yogui__descripcion {
   margin-left: 20px;
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif; }
-
-.redes {
-  color: white; }
 
 .fab {
   color: white; }
@@ -219,9 +220,99 @@ h1 {
   margin-bottom: 100px;
   margin-top: 50px; }
 
-.features-item {
-  margin-bottom: 100px;
-  margin-top: 5px; }
-
 .img-fluid {
   margin-top: 20px; }
+
+#about {
+  background-color: #dcc49a;
+  margin-bottom: -20px; }
+
+.borrar {
+  margin-top: 50px; }
+
+.right-text-content {
+  background-color: aqua; }
+
+.section-heading {
+  background-color: #b9a37c;
+  margin-top: 10px; }
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 3.5em;
+  color: #402d2d;
+  font-family: "Poppins", sans-serif; }
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em; }
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0; }
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0; }
+
+.card-title {
+  text-align: center; }
+
+.card-img-top {
+  width: 30px;
+  height: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 30px; }
+
+.fab:hover {
+  border: #dcc49a;
+  transform: scale(1.8); }
+
+.fab {
+  color: #dcc49a; }
+
+.redes {
+  color: #dcc49a; }
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 10em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  color: #dcc49a;
+  margin-top: 20px; }
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 24em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
