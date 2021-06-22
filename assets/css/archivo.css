@@ -121,18 +121,12 @@ button:hover, button:focus {
 .card-group {
   margin-top: 5px; }
 
-.col-md-12 {
-  background-color: black;
-  text-decoration: none; }
-
-.links {
+.patos {
   background-color: black;
   font-size: 15px;
-  color: #dcc49a;
-  text-decoration: none; }
-
-.col-md-6 {
-  margin-bottom: -2x; }
+  color: white;
+  text-decoration: none;
+  list-style: none; }
 
 h1 {
   text-align: center;
@@ -148,7 +142,8 @@ h1 {
   margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; }
 
 .tarjetita-yoga__botoncito {
   height: 60px;
@@ -230,9 +225,6 @@ h1 {
 .borrar {
   margin-top: 50px; }
 
-.right-text-content {
-  background-color: aqua; }
-
 .section-heading {
   background-color: #b9a37c;
   margin-top: 10px; }
@@ -268,7 +260,8 @@ h1 {
   opacity: 0; }
 
 .card-title {
-  text-align: center; }
+  text-align: center;
+  font-weight: bolder; }
 
 .card-img-top {
   width: 30px;
@@ -316,3 +309,6 @@ h1 {
     border-right-color: rgba(255, 255, 255, 0.75); }
   to {
     border-right-color: transparent; } }
+
+.fondo {
+  background-image: url(assets/img/index/logonuevo.png); }

@@ -57,7 +57,6 @@ margin-bottom: -20px;}
 .borrar{
 margin-top: 50px;}
 
-.right-text-content{background-color: aqua;}
 
 
 .section-heading{background-color: $marron_oscuro;
@@ -103,7 +102,10 @@ margin-top: 10px;}
 }
 
 
-.card-title{text-align: center;}
+.card-title{text-align: center;
+font-weight: bolder
+
+;}
 
 .card-img-top{width: 30px;
   height: 25px;
@@ -165,3 +167,6 @@ margin-top: 10px;}
 }
 
 
+.fondo{background-image: url(assets/img/index/logonuevo.png);
+  
+  ;}

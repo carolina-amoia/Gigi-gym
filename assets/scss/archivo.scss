@@ -73,7 +73,9 @@ $tipografia-general: 'Poppins', sans-serif;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-  }
+   
+  }  
+  
 
   @media (min-width: 600px) {
     .formulario {
@@ -100,6 +102,7 @@ $tipografia-general: 'Poppins', sans-serif;
   
   .formulario__wrapper {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  
   }
 
   .formulario-__wrapper > * {
@@ -162,23 +165,16 @@ $tipografia-general: 'Poppins', sans-serif;
 {margin-top: 5px;
 }
 
-.col-md-12 {background-color: black;
-  text-decoration: none;
 
-}
-
-.links{
+.patos{
 background-color:black;
 font-size: 15px;
-color: $marron_claro;
+color: white;
 text-decoration: none;
-
+list-style: none;
 }
 
 
-
-.col-md-6 {margin-bottom: -2x;
-}
 
 h1{text-align: center;
 padding: 20px;}
@@ -194,7 +190,8 @@ padding: 20px;}
 	margin-bottom: 50px; 
   margin-left: 20px;
   margin-right: 20px;
-  font-family:'Poppins', sans-serif;;
+  font-family:'Poppins', sans-serif;
+  text-decoration: none;
 }
 
 .tarjetita-yoga__botoncito{
