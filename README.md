@@ -45,7 +45,7 @@ $tipografia-general: 'Poppins', sans-serif;
 Google Fonts
 
 -   De aqui se obtuvo las fuente base:
-$tipografia-general: 'Poppins', sans-serif;
+$tipografia-general: 'Poppins', sans-serif. También se utlizo Gilda display en el 404.
 
 
 Git y GitHub
