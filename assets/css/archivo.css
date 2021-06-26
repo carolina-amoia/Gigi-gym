@@ -399,8 +399,7 @@ footer {
   top: -100px;
   opacity: 0.05;
   z-index: 230;
-  user-select: none;
-  user-drag: none; }
+  user-select: none; }
 
 .error {
   text-align: center;
