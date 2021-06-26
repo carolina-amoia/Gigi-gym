@@ -12,7 +12,6 @@
 -   Se utilizó  **HTML** para las 5 secciones reflejadas en el menú
 -   El estilo lo da el  **CSS**  siguiendo una misma gama de colores y tipografía.
 
-/* ---------- mi paleta de colores y tipografia---------------------------*/
 
 $grisesito:#bdbdbd;
 
@@ -29,7 +28,7 @@ $tipografia-general: 'Poppins', sans-serif;
 
 ## Bibliotecas de código abierto y origen de fuentes utilizadas
 
-##Boostrap
+## Boostrap
 
 -   En diversos componentes como:
 
@@ -42,15 +41,15 @@ $tipografia-general: 'Poppins', sans-serif;
 -   Tambien utilice animaciones para desde Moving Letters para  los efectos de los h1 en cada pagina.
 
 ----------
-##Google Fonts
+## Google Fonts
 
 -   De aqui se obtuvo las fuente base:
 $tipografia-general: 'Poppins', sans-serif. También se utlizo Gilda display en el 404.
 
-##Js
+## Js
 Esta incorporado a traves de algunas animaciones de código abierto.
 
-##Git y GitHub
+## Git y GitHub
 
 -   Se creó el repositorio para visualizar y compartir código  a traves de  **GitHub Pages**. Tambien  _**GIT**_  fue utilizado para la subida de archivos al repositorio virtual de  _**GitHub**_  haciendo uso de  **COMMITS**  y  **PUSH**.
 
